@@ -14,11 +14,10 @@
                 end: "+=100% ",
                 markers:true,
                 scrub:true,
-                pin:true
+                pin:true,
               }                   
         });
         gsap.from('.heading1',{
-
           scale:0
         })
         gsap.to('.heading1',{
@@ -74,6 +73,24 @@
       
       
         sca.to('.heading-3',{
+
+          scale:20,
+          opacity:1,
+          display:'none'
+        })
+
+        sca.from('.heading-4',{
+
+          scale:0
+        })
+      
+        sca.to('.heading-4',{
+
+          scale:1
+        })
+      
+      
+        sca.to('.heading-4',{
 
           scale:20,
           opacity:1,
